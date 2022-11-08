@@ -13,7 +13,7 @@ class App extends React.Component {
           name: 'name1',
           artist: 'artist1',
           album: 'album1',
-          id: 1
+          id: 1,
         },
         {
           name: 'name2',
@@ -28,6 +28,27 @@ class App extends React.Component {
           id: 3
         },
       ],
+      playlistName: 'My Playlist',
+      playlistTracks: [
+        {
+          name: 'name1',
+          artist: 'artist1',
+          album: 'album1',
+          id: 1
+        },
+        {
+          name: 'name2',
+          artist: 'artist2',
+          album: 'album2',
+          id: 1
+        },
+        {
+          name: 'name3',
+          artist: 'artist3',
+          album: 'album3',
+          id: 1
+        }
+      ]
     }
   }
   render() {
